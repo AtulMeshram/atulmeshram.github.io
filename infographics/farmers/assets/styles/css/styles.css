@@ -1,0 +1,3300 @@
+@import url("http://fonts.googleapis.com/css?family=Dosis:600|Roboto+Slab:100,300,400,700");
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+a:hover,
+a:active {
+  outline: 0;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background: yellow;
+  color: black;
+}
+
+pre,
+code,
+kbd,
+samp {
+  font-family: monospace, serif;
+  _font-family: "courier new", monospace;
+  font-size: 1em;
+}
+
+q {
+  quotes: none;
+}
+
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+small {
+  font-size: 75%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0;
+}
+
+dd {
+  margin: 0 0 0 40px;
+}
+
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px;
+}
+
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none;
+}
+
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+figure {
+  margin: 0;
+}
+
+form {
+  margin: 0;
+}
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 0;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+  *margin-left: -7px;
+}
+
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+
+button,
+input {
+  line-height: normal;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+  *overflow: visible;
+}
+
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *height: 13px;
+  *width: 13px;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+::selection {
+  text-shadow: none;
+  background: black;
+  color: white;
+}
+
+::-moz-selection {
+  text-shadow: none;
+  background: black;
+  color: white;
+}
+
+html {
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 12px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  line-height: 1.4em;
+  background-color: #FFA8A8;
+  text-align: center;
+  color: white;
+}
+
+h1, h2, h3 {
+  line-height: 1.4em;
+  font-weight: 300;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.83333em;
+}
+
+h2 {
+  font-size: 2.33333em;
+}
+
+p {
+  margin: 0 0 1.4em;
+}
+
+em {
+  font-style: normal;
+  color: #d92400;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #222222;
+}
+
+button {
+  -webkit-font-smoothing: antialiased;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  border-radius: 24px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+  font-size: 1.33333em;
+  line-height: 45.6px;
+  font-family: "Dosis", sans-serif;
+  background-color: #f2f2f2;
+  font-weight: 600;
+  height: 48px;
+  width: 48px;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  outline: none;
+  border: none;
+}
+button.hide {
+  opacity: 0;
+}
+
+.download-button {
+  -webkit-font-smoothing: antialiased;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+  font-size: 1.5em;
+  line-height: 48px;
+  font-family: "Dosis", sans-serif;
+  background-color: #f2f2f2;
+  font-weight: 600;
+  height: 50px;
+  width: 225px;
+  position: absolute;
+  bottom: 10%;
+  display: block;
+  margin: 0 auto;
+  padding: auto 10px;
+  outline: none;
+  border: none;
+}
+
+footer {
+  position: absolute;
+  text-align: right;
+  line-height: 0;
+  font-size: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+footer .fb-like {
+  display: inline-block;
+  position: absolute;
+  margin-left: 12px;
+  bottom: 48px;
+  right: 22px;
+}
+footer .twitter-share-button {
+  display: inline-block;
+  position: absolute;
+  margin-left: 12px;
+  bottom: 20px;
+  right: 10px;
+}
+
+.accelerate {
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.center {
+  max-width: 400px;
+  margin: 0 auto;
+  width: 88%;
+}
+
+.wrapper {
+  min-height: 460px;
+  position: absolute;
+  overflow: hidden;
+  display: table;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.cell {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.panel {
+  -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  position: relative;
+}
+
+.about {
+  -webkit-font-smoothing: auto;
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  perspective: 1000px;
+  color: #FFFFFF;
+}
+.about:after {
+  /*background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+  background-image: linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);*/
+  position: absolute;
+  display: block;
+  width: 100%;
+  content: "";
+  height: 5%;
+  left: 0;
+  top: 0;
+}
+.about.hide .cables {
+  -webkit-transform: translate3d(0,-10%,0) rotateX(-90deg);
+  -moz-transform: translate3d(0,-10%,0) rotateX(-90deg);
+  transform: translate3d(0,-10%,0) rotateX(-90deg);
+  opacity: 0;
+}
+.about.hide .panel {
+  -webkit-transform: rotateX(-20deg);
+  -moz-transform: rotateX(-20deg);
+  transform: rotateX(-20deg);
+}
+.about .panel,
+.about .cables {
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: relative;
+}
+.about .cables {
+  -webkit-transform-origin: 50% -100%;
+  -moz-transform-origin: 50% -100%;
+  transform-origin: 50% -100%;
+}
+.about .cables:before {
+  left: 10%;
+  background: transparent url(../../images/cable.png) 0 0 no-repeat;
+  position: absolute;
+  display: block;
+  height: 860px;
+  width: 30px;
+  content: "";
+  top: -837px;
+  z-index: 1;
+}
+.about .cables:after {
+  right: 10%;
+  background: transparent url(../../images/cable.png) 0 0 no-repeat;
+  position: absolute;
+  display: block;
+  height: 860px;
+  width: 30px;
+  content: "";
+  top: -837px;
+  z-index: 1;
+}
+.about .panel {
+  -webkit-transform-origin: 50% 0%;
+  -moz-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  background-color: #EF5350;
+  /*background: #f2f2f2 url(../../images/panel.jpg) -7px 0;*/
+  background-size: 399px 357px;
+}
+.about .panel:before {
+  border-left: 1px dashed rgba(29, 31, 39, 0.2);
+  position: absolute;
+  display: block;
+  height: 100%;
+  content: "";
+  left: 5%;
+  top: 0;
+}
+.about .panel:after {
+  -webkit-border-radius: 0 0 6px 0;
+  -moz-border-radius: 0 0 6px 0;
+  border-radius: 0 0 6px 0;
+  opacity: 0.2;
+  content: "";
+  left: 0;
+  top: 0;
+}
+.about .panel header {
+  padding: 1em 0 1em;
+}
+
+.about .panel h1 {
+  font-weight: 100;
+  color: #FFFFFF;
+}
+.about .panel h1 em {
+  color: #222222;
+}
+.about .panel p {
+  margin: 0 8% 1.2em;
+  position: relative;
+  z-index: 1;
+  color: #FFFFFF;
+}
+.about .panel p strong {
+  font-weight: 700;
+  color: #1d1f27;
+}
+.about .panel .social {
+  margin: 1.4em 0 1em;
+  position: relative;
+  z-index: 1;
+}
+.about .panel .twitter-follow-button {
+  display: inline-block;
+  margin-bottom: 0.8em;
+}
+.about .panel .twitter-follow-button + .twitter-follow-button {
+  margin-left: 0.4em;
+}
+.about .panel .links {
+  zoom: 1;
+  -webkit-box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 1;
+}
+.about .panel .links:after, .about .panel .links:before {
+  display: table;
+  content: "";
+}
+.about .panel .links:after {
+  clear: both;
+}
+.about .panel .links li {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  width: 50%;
+  -webkit-box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.1);
+   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.full{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  width: 100%;
+  -webkit-box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.1);
+   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.about .panel .links li a {
+  -webkit-border-radius: 0 0 0 5px;
+  -moz-border-radius: 0 0 0 5px;
+  border-radius: 0 0 0 5px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.about .panel .links li + li {
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.about .panel .links li + li a {
+  -webkit-border-radius: 0 0 5px 0;
+  -moz-border-radius: 0 0 5px 0;
+  border-radius: 0 0 5px 0;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.about .panel .links a {
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.33333em;
+  font-family: "Dosis", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 1em 0 1.1em;
+  display: block;
+}
+.about .panel .links a.github:before, .about .panel .links a.download:before {
+  content: "";
+  font-family: "icons";
+  text-transform: none;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1em;
+  font-size: 0.8em;
+  margin-right: 0.5em;
+  margin-left: -0.8em;
+  position: relative;
+  top: -1px;
+}
+.about .panel .links a.download:before {
+  content: "d";
+}
+.about .panel .links a.github:before {
+  margin-right: 0.4em;
+  content: "g";
+}
+
+.toggle {
+  width: 15em;
+  margin-right: 10px;
+  -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+  margin: -24px;
+  position: absolute;
+  bottom: 11.6%;
+  right: 20%;
+}
+
+.toggle.i .cross {
+  -webkit-transform: rotateZ(0deg);
+  -moz-transform: rotateZ(0deg);
+  transform: rotateZ(0deg);
+}
+.toggle.i .cross .x {/*
+  margin-left: -2px;
+  width: 4px;
+  margin-top: -12px;*/
+}
+.toggle.i .cross .y {/*
+  margin-top: -4px;
+  height: 16px;*/
+}
+
+.cross {
+  -webkit-transform: rotateZ(45deg);
+  -moz-transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
+  position: absolute;
+  left: 11.5%;
+  top: 50%;
+  margin-right: 25px;
+}
+.cross .x, .cross .y {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+  background-color: #1d1f27;
+  height: 4px;
+  width: 4px;
+  margin: -2px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.cross .x {
+  margin-left: -12px;
+  margin-top: -2px;
+  width: 24px;
+}
+.cross .y {
+  margin-top: -12px;
+  height: 24px;
+}
+
+.prompt.hide {
+  visibility: hidden;
+}
+.prompt.hide .panel {
+  -webkit-transform: translate3d(0,250%,0) rotateY(360deg);
+  -moz-transform: translate3d(0,250%,0) rotateY(360deg);
+  transform: translate3d(0,250%,0) rotateY(360deg);
+  opacity: 0;
+}
+.prompt .cell {
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  perspective: 1000px;
+}
+.prompt .dismiss {
+  -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  transform: scale(0.5);
+  background-color: transparent;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+}
+.prompt .x, .prompt .y {
+  background: white;
+}
+.prompt .center {
+  max-width: 300px;
+  width: 82%;
+}
+.prompt .panel {
+  -webkit-perspective: none;
+  -moz-perspective: none;
+  perspective: none;
+  -webkit-transform-style: flat;
+  -moz-transform-style: flat;
+  transform-style: flat;
+  -webkit-transition: all 1.8s cubic-bezier(0.77, 0, 0.175, 1);
+  -moz-transition: all 1.8s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 1.8s cubic-bezier(0.77, 0, 0.175, 1);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background-color: rgba(0, 0, 0, 0.65);
+  padding: 1.2em 0 1.8em;
+}
+.prompt .panel img {
+  margin: 0.6em auto;
+  width: 100px;
+}
+.prompt .panel h2 {
+  margin: 0 0 0.4em;
+}
+.prompt .panel p {
+  font-size: 1.25em;
+  margin: 0 10% 1.25em;
+  line-height: 1.25em;
+  color: #999999;
+}
+.prompt .tilt-scene {
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  perspective: 1000px;
+  -webkit-transform: translate3d(0,0,100px);
+  -moz-transform: translate3d(0,0,100px);
+  transform: translate3d(0,0,100px);
+  margin: 0 auto;
+  width: 60%;
+}
+.prompt .tilt {
+  -webkit-animation: tilt 4s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -moz-animation: tilt 4s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  animation: tilt 4s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.scene,
+.layer {
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.scene {
+  min-height: 460px;
+  position: relative;
+  overflow: hidden;
+}
+
+.layer {
+  position: absolute;
+}
+.layer div {
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.title {
+  font-size: 3em;
+  text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
+  margin-top: -0.7em;
+  position: absolute;
+  width: 100%;
+  top: 42%;
+}
+
+.background {
+  background: transparent;
+  bottom: 0px;
+  background-size: cover;
+  position: absolute;
+  width: 110%;
+  left: -5%;
+  top: -5%;
+  /*background-image: url(../../images/bg.png);*/
+  background-color: #FFA8A8;
+}
+
+.sun {
+  /*-webkit-transform-origin: 20% 50%;
+  -moz-transform-origin: 20% 50%;
+  transform-origin: 20% 50%;*/
+  margin: 0px 0px;
+  /*background-size: 1600px 900px;
+  height: 900px;
+  width: 1600px;*/
+  background-image: url(../../images/sun.png);
+  background-repeat: no-repeat;
+  bottom: -5%;
+  position: absolute;
+  right: 0%;
+  -webkit-animation: phase 5s 0.1s infinite linear;
+  -moz-animation: phase 5s 0.1s infinite linear;
+  animation: phase 5s 0.1s infinite linear;
+}
+
+.hal {
+  -webkit-transform-origin: 20% 50%;
+  -moz-transform-origin: 20% 50%;
+  transform-origin: 20% 50%;
+  margin: 0px 0px;
+  background-size: 375px 670px;
+  height: 670px;
+  width: 375px;
+  background-image: url(../../images/hal.png);
+  background-repeat: no-repeat;
+  bottom: 0px;
+  position: absolute;
+  right: 70%;
+}
+.grass {
+  -webkit-transform-origin: 20% 50%;
+  -moz-transform-origin: 20% 50%;
+  transform-origin: 20% 50%;
+  margin: 0px 0px;
+  background-size: 155px 200px;
+  height: 200px;
+  width: 155px;
+  background-image: url(../../images/grass.png);
+  background-repeat: no-repeat;
+  bottom: -5%;
+  position: absolute;
+  right: 65%;
+}
+.ground-1 {
+  -webkit-transform-origin: 20% 50%;
+  -moz-transform-origin: 20% 50%;
+  transform-origin: 20% 50%;
+  margin: 0px 0px;
+  background-size: 670px 110px;
+  height: 110px;
+  width: 670px;
+  background-image: url(../../images/ground-1.png);
+  background-repeat: no-repeat;
+  bottom: -5%;
+  position: absolute;
+  right: 60%;
+}
+.ground-2 {
+  -webkit-transform-origin: 20% 50%;
+  -moz-transform-origin: 20% 50%;
+  transform-origin: 20% 50%;
+  margin: 0px 0px;
+  background-size: 780px 85px;
+  height: 85px;
+  width: 780px;
+  background-image: url(../../images/ground-2.png);
+  background-repeat: no-repeat;
+  bottom: -5%;
+  position: absolute;
+  right: 35%;
+}
+
+.title-1 {
+  -webkit-transform-origin: 20% 50%;
+  -moz-transform-origin: 20% 50%;
+  transform-origin: 20% 50%;
+  margin: 0px 0px;
+  background-size: 562px 107px;
+  height: 107px;
+  width: 562px;
+  background-image: url(../../images/title-1.png);
+  background-repeat: no-repeat;
+  bottom: 70%;
+  position: absolute;
+  right: 25%;
+}
+.title-2 {
+  -webkit-transform-origin: 20% 50%;
+  -moz-transform-origin: 20% 50%;
+  transform-origin: 20% 50%;
+  margin: 0px 0px;
+  background-size: 559px 94px;
+  height: 94px;
+  width: 559px;
+  background-image: url(../../images/title-2.png);
+  background-repeat: no-repeat;
+  bottom: 50%;
+  position: absolute;
+  right: 25%;
+}
+
+.title-3 {
+  -webkit-transform-origin: 20% 50%;
+  -moz-transform-origin: 20% 50%;
+  transform-origin: 20% 50%;
+  margin: 0px 0px;
+  background-size: 566px 148px;
+  height: 148px;
+  width: 566px;
+  background-image: url(../../images/title-3.png);
+  background-repeat: no-repeat;
+  bottom: 27%;
+  position: absolute;
+  right: 25%;
+}
+
+.title-4 {
+  -webkit-transform-origin: 20% 50%;
+  -moz-transform-origin: 20% 50%;
+  transform-origin: 20% 50%;
+  margin: 0px 0px;
+  background-size: 218px 422px;
+  height: 422px;
+  width: 218px;
+  background-image: url(../../images/title-4.png);
+  background-repeat: no-repeat;
+  bottom: 30%;
+  position: absolute;
+  right: 5%;
+}
+
+
+/* --------------------------------- */
+/* ---- For Desktop  width: 350px ---- */
+@media all and (min-width: 350px) {
+  
+  .sun {
+    background-size: 501px 284px;;
+    height: 284px;
+    width: 501px;
+    bottom: -5%;
+    position: absolute;
+    right: 0%;
+  }
+
+  .hal {
+    background-size: 174px 310px;
+    height: 310px;
+    width: 174px;
+    bottom: 0px;
+    position: absolute;
+    right: 50%;
+  }
+
+  .grass {
+    background-size: 60px 76px;
+    height: 76px;
+    width: 60px;
+    bottom: -2%;
+    position: absolute;
+    right: 50%;
+  }
+  .ground-1 {
+    background-size: 258px 43px;
+    height: 43px;
+    width: 258px;
+    bottom: -3%;
+    position: absolute;
+    right: 35%;
+  }
+  .ground-2 {
+    background-size: 300px 35px;
+    height: 35px;
+    width: 300px;
+    bottom: -2%;
+    position: absolute;
+    right: 0%;
+  }
+
+  .title-1 {
+    background-size: 240px 47px;
+    height: 47px;
+    width: 240px;
+    bottom: 80%;
+    position: absolute;
+    right: 17%;
+  }
+  .title-2 {
+    margin: 0px 0px;
+    background-size: 238px 41px;
+    height: 41px;
+    width: 238px;
+    bottom: 70%;
+    position: absolute;
+    right: 18%;
+  }
+
+  .title-3 {
+    margin: 0px 0px;
+    background-size: 240px 63px;
+    height: 63px;
+    width: 240px;
+    bottom: 58%;
+    position: absolute;
+    right: 17%;
+  }
+
+  .title-4 {
+    margin: 0px 0px;
+    background-size: 68px 125px;
+    height: 125px;
+    width: 68px;
+    bottom: 35%;
+    position: absolute;
+    right: 18%;
+  }
+}
+
+/* ---- For Desktop  width: 450px ---- */
+@media all and (min-width: 450px) {
+  
+  .sun {
+    background-size: 501px 284px;;
+    height: 284px;
+    width: 501px;
+    bottom: -5%;
+    position: absolute;
+    right: 30%;
+  }
+
+  .hal {
+    background-size: 174px 310px;
+    height: 310px;
+    width: 174px;
+    bottom: 0px;
+    position: absolute;
+    right: 60%;
+  }
+
+  .grass {
+    background-size: 60px 76px;
+    height: 76px;
+    width: 60px;
+    bottom: -2%;
+    position: absolute;
+    right: 58%;
+  }
+  .ground-1 {
+    background-size: 258px 43px;
+    height: 43px;
+    width: 258px;
+    bottom: -3%;
+    position: absolute;
+    right: 50%;
+  }
+  .ground-2 {
+    background-size: 300px 35px;
+    height: 35px;
+    width: 300px;
+    bottom: -2%;
+    position: absolute;
+    right: 20%;
+  }
+
+  .title-1 {
+    background-size: 240px 47px;
+    height: 47px;
+    width: 240px;
+    bottom: 75%;
+    position: absolute;
+    right: 5%;
+  }
+  .title-2 {
+    margin: 0px 0px;
+    background-size: 238px 41px;
+    height: 41px;
+    width: 238px;
+    bottom: 60%;
+    position: absolute;
+    right: 5.5%;
+  }
+
+  .title-3 {
+    margin: 0px 0px;
+    background-size: 240px 63px;
+    height: 63px;
+    width: 240px;
+    bottom: 41%;
+    position: absolute;
+    right: 5%;
+  }
+
+  .title-4 {
+    margin: 0px 0px;
+    background-size: 68px 125px;
+    height: 125px;
+    width: 68px;
+    bottom: 5%;
+    position: absolute;
+    right: 5%;
+  }
+}
+
+/* ---- For Desktop  width: 700px ---- */
+@media all and (min-width: 700px) {
+  
+  .sun {
+    background-size: 668px 378px;;
+    height: 378px;
+    width: 668px;
+    bottom: -10%;
+    position: absolute;
+    right: 20%;
+  }
+
+  .hal {
+    background-size: 174px 310px;
+    height: 310px;
+    width: 174px;
+    bottom: 0px;
+    position: absolute;
+    right: 60%;
+  }
+
+  .grass {
+    background-size: 60px 77px;
+    height: 77px;
+    width: 60px;
+    bottom: -2%;
+    position: absolute;
+    right: 61%;
+  }
+  .ground-1 {
+    background-size: 206px 43px;
+    height: 86px;
+    width: 516px;
+    bottom: -15%;
+    position: absolute;
+    right: 15%;
+  }
+  .ground-2 {
+    background-size: 300px 35px;
+    height: 35px;
+    width: 300px;
+    bottom: -4%;
+    position: absolute;
+    right: 35%;
+  }
+
+  .title-1 {
+    margin: 0px 0px;
+    background-size: 240px 47px;
+    height: 47px;
+    width: 240px;
+    bottom: 75%;
+    position: absolute;
+    right: 5%;
+  }
+  .title-2 {
+    margin: 0px 0px;
+    background-size: 238px 41px;
+    height: 41px;
+    width: 238px;
+    bottom: 61%;
+    position: absolute;
+    right: 5%;
+  }
+
+  .title-3 {
+    margin: 0px 0px;
+    background-size: 240px 61px;
+    height: 61px;
+    width: 240px;
+    bottom: 45%;
+    position: absolute;
+    right: 5%;
+  }
+
+  .title-4 {
+    margin: 0px 0px;
+    background-size: 64px 125px;
+    height: 125px;
+    width: 64px;
+    bottom: 10%;
+    position: absolute;
+    right: 5.5%;
+  }
+}
+
+/* ---- For Desktop  width: 900px ---- */
+@media all and (min-width: 900px) {
+  .sun {
+    background-size: 1545px 874px;;
+    height: 874px;
+    width: 1545px;
+    bottom: -5%;
+    position: absolute;
+    right: 20%;
+  }
+
+  .hal {
+    background-size: 365px 651px;
+    height: 651px;
+    width: 365px;
+    bottom: 2px;
+    position: absolute;
+    right: 68%;
+  }
+
+  .grass {
+    background-size: 168px 216px;
+    height: 216px;
+    width: 168px;
+    bottom: -2%;
+    position: absolute;
+    right: 62%;
+  }
+  .ground-1 {
+    background-size: 722px 120px;
+    height: 120px;
+    width: 722px;
+    bottom: -3%;
+    position: absolute;
+    right: 55%;
+  }
+  .ground-2 {
+    background-size: 840px 98px;
+    height: 98px;
+    width: 840px;
+    bottom: -2%;
+    position: absolute;
+    right: 30%;
+  }
+
+  .title-1 {
+    margin: 0px 0px;
+    background-size: 538px 106px;
+    height: 106px;
+    width: 538px;
+    bottom: 75%;
+    position: absolute;
+    right: 5%;
+  }
+  .title-2 {
+    margin: 0px 0px;
+    background-size: 533px 95px;
+    height: 95px;
+    width: 533px;
+    bottom: 58%;
+    position: absolute;
+    right: 5%;
+  }
+
+  .title-3 {
+    margin: 0px 0px;
+    background-size: 535px 140px;
+    height: 140px;
+    width: 535px;
+    bottom: 37%;
+    position: absolute;
+    right: 5%;
+  }
+
+  .title-4 {
+    margin: 0px 0px;
+    background-size: 135px 263px;
+    height: 263px;
+    width: 135px;
+    bottom: 7%;
+    position: absolute;
+    right: 5%;
+  }
+}
+
+/* ---- For Desktop  width: 1000px ---- */
+@media all and (min-width: 1000px) {
+  .sun {
+    background-size: 1854px 1049px;;
+    height: 1049px;
+    width: 1854px;
+    bottom: -5%;
+    position: absolute;
+    right: 20%;
+  }
+
+  .hal {
+    background-size: 365px 651px;
+    height: 651px;
+    width: 365px;
+    bottom: 2px;
+    position: absolute;
+    right: 68%;
+  }
+
+  .grass {
+    background-size: 168px 216px;
+    height: 216px;
+    width: 168px;
+    bottom: -2%;
+    position: absolute;
+    right: 62%;
+  }
+  .ground-1 {
+    background-size: 722px 120px;
+    height: 120px;
+    width: 722px;
+    bottom: -3%;
+    position: absolute;
+    right: 55%;
+  }
+  .ground-2 {
+    background-size: 840px 98px;
+    height: 98px;
+    width: 840px;
+    bottom: -2%;
+    position: absolute;
+    right: 30%;
+  }
+
+  .title-1 {
+    margin: 0px 0px;
+    background-size: 538px 106px;
+    height: 106px;
+    width: 538px;
+    bottom: 78%;
+    position: absolute;
+    right: 5%;
+  }
+  .title-2 {
+    margin: 0px 0px;
+    background-size: 533px 95px;
+    height: 95px;
+    width: 533px;
+    bottom: 62%;
+    position: absolute;
+    right: 5%;
+  }
+
+  .title-3 {
+    margin: 0px 0px;
+    background-size: 535px 140px;
+    height: 140px;
+    width: 535px;
+    bottom: 43%;
+    position: absolute;
+    right: 5%;
+  }
+
+  .title-4 {
+    margin: 0px 0px;
+    background-size: 135px 263px;
+    height: 263px;
+    width: 135px;
+    bottom: 5%;
+    position: absolute;
+    right: 5%;
+  }
+}
+
+
+/* ---- For Desktop  width: 1600px ---- */
+/*@media all and (min-width: 1600px) {
+  .sun {
+    background-size: 2163px 1224px;;
+    height: 1224px;
+    width: 2163px;
+    bottom: -5%;
+    position: absolute;
+    right: 30%;
+  }
+
+  .hal {
+    background-size: 682px 1215px;
+    height: 1215px;
+    width: 682px;
+    bottom: 0px;
+    position: absolute;
+    right: 67%;
+  }
+
+  .grass {
+    background-size: 235px 302px;
+    height: 302px;
+    width: 235px;
+    bottom: -2%;
+    position: absolute;
+    right: 66%;
+  }
+  .ground-1 {
+    background-size: 1011px 168px;
+    height: 168px;
+    width: 1011px;
+    bottom: -3%;
+    position: absolute;
+    right: 58%;
+  }
+  .ground-2 {
+    background-size: 1176px 137px;
+    height: 137px;
+    width: 1176px;
+    bottom: -2%;
+    position: absolute;
+    right: 35%;
+  }
+
+  .title-1 {
+    margin: 0px 0px;
+    background-size: 941px 185px;
+    height: 185px;
+    width: 941px;
+    bottom: 75%;
+    position: absolute;
+    right: 5%;
+  }
+  .title-2 {
+    margin: 0px 0px;
+    background-size: 935px 167px;
+    height: 167px;
+    width: 935px;
+    bottom: 58%;
+    position: absolute;
+    right: 5%;
+  }
+
+  .title-3 {
+    margin: 0px 0px;
+    background-size: 940px 246px;
+    height: 246px;
+    width: 940px;
+    bottom: 39%;
+    position: absolute;
+    right: 5%;
+  }
+
+  .title-4 {
+    margin: 0px 0px;
+    background-size: 252px 491px;
+    height: 491px;
+    width: 252px;
+    bottom: 4%;
+    position: absolute;
+    right: 5%;
+  }
+}*/
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  
+  .sun {
+    background-size: 305px 180px;;
+    height: 180px;
+    width: 305px;
+    bottom: -3%;
+    position: absolute;
+    right: 15%;
+  }
+
+  .hal {
+    background-size: 132px 235px;
+    height: 235px;
+    width: 132px;
+    bottom: 0px;
+    position: absolute;
+    right: 50%;
+  }
+
+  .grass {
+    background-size: 54px 70px;
+    height: 70px;
+    width: 54px;
+    bottom: -2%;
+    position: absolute;
+    right: 45%;
+  }
+  .ground-1 {
+    background-size: 235px 39px;
+    height: 39px;
+    width: 235px;
+    bottom: -3%;
+    position: absolute;
+    right: 30%;
+  }
+  .ground-2 {
+    margin: 0px 0px;
+    background-size: 273px 30px;
+    height: 30px;
+    width: 273px;
+    bottom: -2%;
+    position: absolute;
+    right: -10%;
+  }
+
+  .title-1 {
+    margin: 0px 0px;
+    background-size: 197px 38px;
+    height: 38px;
+    width: 197px;
+    bottom: 80%;
+    position: absolute;
+    right: 18%;
+  }
+  .title-2 {
+    margin: 0px 0px;
+    background-size: 196px 33px;
+    height: 33px;
+    width: 196px;
+    bottom: 70%;
+    position: absolute;
+    right: 18%;
+  }
+
+  .title-3 {
+    margin: 0px 0px;
+    background-size: 198px 52px;
+    height: 52px;
+    width: 198px;
+    bottom: 58%;
+    position: absolute;
+    right: 18%;
+  }
+
+  .title-4 {
+    margin: 0px 0px;
+    background-size: 68px 133px;
+    height: 133px;
+    width: 68px;
+    bottom: 30%;
+    position: absolute;
+    right: 18%;
+  }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+  .sun {
+    background-size: 396px 224px;;
+    height: 224px;
+    width: 396px;
+    bottom: -5%;
+    position: absolute;
+    right: 3%;
+  }
+
+  .hal {
+    background-size: 158px 282px;
+    height: 282px;
+    width: 158px;
+    bottom: 0px;
+    position: absolute;
+    right: 50%;
+  }
+
+  .grass {
+    background-size: 54px 70px;
+    height: 70px;
+    width: 54px;
+    bottom: -2%;
+    position: absolute;
+    right: 50%;
+  }
+  .ground-1 {
+    background-size: 235px 39px;
+    height: 39px;
+    width: 235px;
+    bottom: -3%;
+    position: absolute;
+    right: 40%;
+  }
+  .ground-2 {
+    background-size: 273px 30px;
+    height: 30px;
+    width: 273px;
+    bottom: -2%;
+    position: absolute;
+    right: -5%;
+  }
+
+  .title-1 {
+    margin: 0px 0px;
+    background-size: 239px 46px;
+    height: 46px;
+    width: 239px;
+    bottom: 80%;
+    position: absolute;
+    right: 18%;
+  }
+  .title-2 {
+    margin: 0px 0px;
+    background-size: 238px 41px;
+    height: 41px;
+    width: 238px;
+    bottom: 70%;
+    position: absolute;
+    right: 18%;
+  }
+
+  .title-3 {
+    margin: 0px 0px;
+    background-size: 240px 63px;
+    height: 63px;
+    width: 240px;
+    bottom: 58%;
+    position: absolute;
+    right: 18%;
+  }
+
+  .title-4 {
+    margin: 0px 0px;
+    background-size: 84px 163px;
+    height: 163px;
+    width: 84px;
+    bottom: 30%;
+    position: absolute;
+    right: 19%;
+  }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+  
+  .sun {
+    background-size: 436px 246px;;
+    height: 246px;
+    width: 436px;
+    bottom: -5%;
+    position: absolute;
+    right: 3%;
+  }
+
+  .hal {
+    background-size: 192px 341px;
+    height: 341px;
+    width: 192px;
+    bottom: 0px;
+    position: absolute;
+    right: 50%;
+  }
+
+  .grass {
+    background-size: 60px 77px;
+    height: 77px;
+    width: 60px;
+    bottom: -2%;
+    position: absolute;
+    right: 50%;
+  }
+  .ground-1 {
+    background-size: 258px 43px;
+    height: 43px;
+    width: 258px;
+    bottom: -3%;
+    position: absolute;
+    right: 40%;
+  }
+  .ground-2 {
+    background-size: 300px 35px;
+    height: 35px;
+    width: 300px;
+    bottom: -2%;
+    position: absolute;
+    right: 0%;
+  }
+
+  .title-1 {
+    margin: 0px 0px;
+    background-size: 264px 52px;
+    height: 52px;
+    width: 264px;
+    bottom: 80%;
+    position: absolute;
+    right: 18%;
+  }
+  .title-2 {
+    margin: 0px 0px;
+    background-size: 262px 45px;
+    height: 45px;
+    width: 262px;
+    bottom: 70%;
+    position: absolute;
+    right: 18%;
+  }
+
+  .title-3 {
+    margin: 0px 0px;
+    background-size: 264px 70px;
+    height: 70px;
+    width: 264px;
+    bottom: 58%;
+    position: absolute;
+    right: 18%;
+  }
+
+  .title-4 {
+    margin: 0px 0px;
+    background-size: 92px 179px;
+    height: 179px;
+    width: 92px;
+    bottom: 30%;
+    position: absolute;
+    right: 20%;
+  }
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- Xperia Z1 Compact ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+
+  .sun {
+    background-size: 396px 224px;;
+    height: 224px;
+    width: 396px;
+    bottom: -5%;
+    position: absolute;
+    right: 3%;
+  }
+
+  .hal {
+    background-size: 158px 282px;
+    height: 282px;
+    width: 158px;
+    bottom: 0px;
+    position: absolute;
+    right: 50%;
+  }
+
+  .grass {
+    background-size: 54px 70px;
+    height: 70px;
+    width: 54px;
+    bottom: -2%;
+    position: absolute;
+    right: 50%;
+  }
+  .ground-1 {
+    background-size: 235px 39px;
+    height: 39px;
+    width: 235px;
+    bottom: -3%;
+    position: absolute;
+    right: 40%;
+  }
+  .ground-2 {
+    background-size: 273px 30px;
+    height: 30px;
+    width: 273px;
+    bottom: -2%;
+    position: absolute;
+    right: -5%;
+  }
+
+  .title-1 {
+    margin: 0px 0px;
+    background-size: 239px 46px;
+    height: 46px;
+    width: 239px;
+    bottom: 80%;
+    position: absolute;
+    right: 17%;
+  }
+  .title-2 {
+    margin: 0px 0px;
+    background-size: 238px 41px;
+    height: 41px;
+    width: 238px;
+    bottom: 70%;
+    position: absolute;
+    right: 17%;
+  }
+
+  .title-3 {
+    margin: 0px 0px;
+    background-size: 240px 63px;
+    height: 63px;
+    width: 240px;
+    bottom: 58%;
+    position: absolute;
+    right: 17%;
+  }
+
+  .title-4 {
+    margin: 0px 0px;
+    background-size: 84px 163px;
+    height: 163px;
+    width: 84px;
+    bottom: 28%;
+    position: absolute;
+    right: 18%;
+  }
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Xperia Z2/Z3 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+  .sun {
+    background-size: 436px 246px;;
+    height: 246px;
+    width: 436px;
+    bottom: -5%;
+    position: absolute;
+    right: 0%;
+  }
+
+  .hal {
+    background-size: 192px 341px;
+    height: 341px;
+    width: 192px;
+    bottom: 0px;
+    position: absolute;
+    right: 45%;
+  }
+
+  .grass {
+    background-size: 60px 77px;
+    height: 77px;
+    width: 60px;
+    bottom: -2%;
+    position: absolute;
+    right: 45%;
+  }
+  .ground-1 {
+    background-size: 258px 43px;
+    height: 43px;
+    width: 258px;
+    bottom: -3%;
+    position: absolute;
+    right: 35%;
+  }
+  .ground-2 {
+    background-size: 300px 35px;
+    height: 35px;
+    width: 300px;
+    bottom: -2%;
+    position: absolute;
+    right: -5%;
+  }
+
+  .title-1 {
+    margin: 0px 0px;
+    background-size: 264px 52px;
+    height: 52px;
+    width: 264px;
+    bottom: 85%;
+    position: absolute;
+    right: 13%;
+  }
+  .title-2 {
+    margin: 0px 0px;
+    background-size: 262px 45px;
+    height: 45px;
+    width: 262px;
+    bottom: 72%;
+    position: absolute;
+    right: 13%;
+  }
+
+  .title-3 {
+    margin: 0px 0px;
+    background-size: 264px 70px;
+    height: 70px;
+    width: 264px;
+    bottom: 58%;
+    position: absolute;
+    right: 13%;
+  }
+
+  .title-4 {
+    margin: 0px 0px;
+    background-size: 92px 179px;
+    height: 179px;
+    width: 92px;
+    bottom: 27%;
+    position: absolute;
+    right: 13%;
+  }
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Galaxy S8 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 740px) 
+  and (-webkit-device-pixel-ratio: 4) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 740px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: portrait) {
+  
+  .sun {
+    background-size: 436px 246px;;
+    height: 246px;
+    width: 436px;
+    bottom: -5%;
+    position: absolute;
+    right: 0%;
+  }
+
+  .hal {
+    background-size: 192px 341px;
+    height: 341px;
+    width: 192px;
+    bottom: 0px;
+    position: absolute;
+    right: 45%;
+  }
+
+  .grass {
+    background-size: 60px 77px;
+    height: 77px;
+    width: 60px;
+    bottom: -2%;
+    position: absolute;
+    right: 45%;
+  }
+  .ground-1 {
+    background-size: 258px 43px;
+    height: 43px;
+    width: 258px;
+    bottom: -3%;
+    position: absolute;
+    right: 35%;
+  }
+  .ground-2 {
+    background-size: 300px 35px;
+    height: 35px;
+    width: 300px;
+    bottom: -2%;
+    position: absolute;
+    right: -5%;
+  }
+
+  .title-1 {
+    margin: 0px 0px;
+    background-size: 264px 52px;
+    height: 52px;
+    width: 264px;
+    bottom: 85%;
+    position: absolute;
+    right: 13%;
+  }
+  .title-2 {
+    margin: 0px 0px;
+    background-size: 262px 45px;
+    height: 45px;
+    width: 262px;
+    bottom: 72%;
+    position: absolute;
+    right: 13%;
+  }
+
+  .title-3 {
+    margin: 0px 0px;
+    background-size: 264px 70px;
+    height: 70px;
+    width: 264px;
+    bottom: 58%;
+    position: absolute;
+    right: 13%;
+  }
+
+  .title-4 {
+    margin: 0px 0px;
+    background-size: 92px 179px;
+    height: 179px;
+    width: 92px;
+    bottom: 27%;
+    position: absolute;
+    right: 13%;
+  }
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 740px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Google Pixel ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 411px) 
+  and (device-height: 731px) 
+  and (-webkit-device-pixel-ratio: 2.6) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 411px) 
+  and (device-height: 731px) 
+  and (-webkit-device-pixel-ratio: 2.6) 
+  and (orientation: portrait) {
+  
+  .sun {
+    background-size: 436px 246px;;
+    height: 246px;
+    width: 436px;
+    bottom: -5%;
+    position: absolute;
+    right: 3%;
+  }
+
+  .hal {
+    background-size: 192px 341px;
+    height: 341px;
+    width: 192px;
+    bottom: 0px;
+    position: absolute;
+    right: 50%;
+  }
+
+  .grass {
+    background-size: 60px 77px;
+    height: 77px;
+    width: 60px;
+    bottom: -2%;
+    position: absolute;
+    right: 50%;
+  }
+  .ground-1 {
+    background-size: 258px 43px;
+    height: 43px;
+    width: 258px;
+    bottom: -3%;
+    position: absolute;
+    right: 40%;
+  }
+  .ground-2 {
+    background-size: 300px 35px;
+    height: 35px;
+    width: 300px;
+    bottom: -2%;
+    position: absolute;
+    right: 0%;
+  }
+
+  .title-1 {
+    margin: 0px 0px;
+    background-size: 264px 52px;
+    height: 52px;
+    width: 264px;
+    bottom: 80%;
+    position: absolute;
+    right: 18%;
+  }
+  .title-2 {
+    margin: 0px 0px;
+    background-size: 262px 45px;
+    height: 45px;
+    width: 262px;
+    bottom: 70%;
+    position: absolute;
+    right: 18%;
+  }
+
+  .title-3 {
+    margin: 0px 0px;
+    background-size: 264px 70px;
+    height: 70px;
+    width: 264px;
+    bottom: 58%;
+    position: absolute;
+    right: 18%;
+  }
+
+  .title-4 {
+    margin: 0px 0px;
+    background-size: 92px 179px;
+    height: 179px;
+    width: 92px;
+    bottom: 30%;
+    position: absolute;
+    right: 20%;
+  }
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 411px) 
+  and (device-height: 731px) 
+  and (-webkit-device-pixel-ratio: 2.6) 
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Google Pixel XL ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 411px) 
+  and (device-height: 731px) 
+  and (-webkit-device-pixel-ratio: 3.5) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 411px) 
+  and (device-height: 731px) 
+  and (-webkit-device-pixel-ratio: 3.5) 
+  and (orientation: portrait) {
+
+  .sun {
+    background-size: 436px 246px;;
+    height: 246px;
+    width: 436px;
+    bottom: -5%;
+    position: absolute;
+    right: 0%;
+  }
+
+  .hal {
+    background-size: 192px 341px;
+    height: 341px;
+    width: 192px;
+    bottom: 0px;
+    position: absolute;
+    right: 45%;
+  }
+
+  .grass {
+    background-size: 60px 77px;
+    height: 77px;
+    width: 60px;
+    bottom: -2%;
+    position: absolute;
+    right: 45%;
+  }
+  .ground-1 {
+    background-size: 258px 43px;
+    height: 43px;
+    width: 258px;
+    bottom: -3%;
+    position: absolute;
+    right: 35%;
+  }
+  .ground-2 {
+    background-size: 300px 35px;
+    height: 35px;
+    width: 300px;
+    bottom: -2%;
+    position: absolute;
+    right: -5%;
+  }
+
+  .title-1 {
+    margin: 0px 0px;
+    background-size: 264px 52px;
+    height: 52px;
+    width: 264px;
+    bottom: 85%;
+    position: absolute;
+    right: 16%;
+  }
+  .title-2 {
+    margin: 0px 0px;
+    background-size: 262px 45px;
+    height: 45px;
+    width: 262px;
+    bottom: 72%;
+    position: absolute;
+    right: 16%;
+  }
+
+  .title-3 {
+    margin: 0px 0px;
+    background-size: 264px 70px;
+    height: 70px;
+    width: 264px;
+    bottom: 58%;
+    position: absolute;
+    right: 16%;
+  }
+
+  .title-4 {
+    margin: 0px 0px;
+    background-size: 92px 179px;
+    height: 179px;
+    width: 92px;
+    bottom: 27%;
+    position: absolute;
+    right: 16%;
+  }
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 411px) 
+  and (device-height: 731px) 
+  and (-webkit-device-pixel-ratio: 3.5) 
+  and (orientation: landscape) {
+
+}
+
+
+/* --------------------------------- */
+/* ---------- For Tablets  --------- */
+
+/* ----------- iPad Mini & 1 and 2 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+  
+  .sun {
+    background-size: 872px 492px;;
+    height: 492px;
+    width: 872px;
+    bottom: -5%;
+    position: absolute;
+    right: 10%;
+  }
+
+  .hal {
+    background-size: 288px 512px;
+    height: 512px;
+    width: 288px;
+    bottom: 0px;
+    position: absolute;
+    right: 55%;
+  }
+
+  .grass {
+    background-size: 75px 97px;
+    height: 97px;
+    width: 75px;
+    bottom: -2%;
+    position: absolute;
+    right: 60%;
+  }
+  .ground-1 {
+    background-size: 322px 54px;
+    height: 54px;
+    width: 322px;
+    bottom: -3%;
+    position: absolute;
+    right: 55%;
+  }
+  .ground-2 {
+    background-size: 375px 44px;
+    height: 44px;
+    width: 375px;
+    bottom: -2%;
+    position: absolute;
+    right: 30%;
+  }
+
+  .title-1 {
+    margin: 0px 0px;
+    background-size: 343px 67px;
+    height: 67px;
+    width: 343px;
+    bottom: 80%;
+    position: absolute;
+    right: 10%;
+  }
+  .title-2 {
+    margin: 0px 0px;
+    background-size: 341px 59px;
+    height: 59px;
+    width: 341px;
+    bottom: 68%;
+    position: absolute;
+    right: 10%;
+  }
+
+  .title-3 {
+    margin: 0px 0px;
+    background-size: 343px 91px;
+    height: 91px;
+    width: 343px;
+    bottom: 55%;
+    position: absolute;
+    right: 10%;
+  }
+
+  .title-4 {
+    margin: 0px 0px;
+    background-size: 120px 233px;
+    height: 233px;
+    width: 120px;
+    bottom: 27%;
+    position: absolute;
+    right: 10%;
+  }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* ----------- iPad 3 and 4 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+  
+  .sun {
+    background-size: 1090px 615px;;
+    height: 615px;
+    width: 1090px;
+    bottom: -5%;
+    position: absolute;
+    right: 0%;
+  }
+
+  .hal {
+    background-size: 360px 640px;
+    height: 640px;
+    width: 360px;
+    bottom: 0px;
+    position: absolute;
+    right: 50%;
+  }
+
+  .grass {
+    background-size: 94px 122px;
+    height: 122px;
+    width: 94px;
+    bottom: -2%;
+    position: absolute;
+    right: 53%;
+  }
+  .ground-1 {
+    background-size: 402px 67px;
+    height: 67px;
+    width: 402px;
+    bottom: -3%;
+    position: absolute;
+    right:47%;
+  }
+  .ground-2 {
+    background-size: 469px 55px;
+    height: 55px;
+    width: 469px;
+    bottom: -2%;
+    position: absolute;
+    right: 17%;
+  }
+
+  .title-1 {
+    margin: 0px 0px;
+    background-size: 429px 84px;
+    height: 84px;
+    width: 429px;
+    bottom: 85%;
+    position: absolute;
+    right: 7%;
+  }
+  .title-2 {
+    margin: 0px 0px;
+    background-size: 427px 74px;
+    height: 74px;
+    width: 427px;
+    bottom: 73%;
+    position: absolute;
+    right: 7%;
+  }
+
+  .title-3 {
+    margin: 0px 0px;
+    background-size: 428px 113px;
+    height: 113px;
+    width: 428px;
+    bottom: 60%;
+    position: absolute;
+    right: 7%;
+  }
+
+  .title-4 {
+    margin: 0px 0px;
+    background-size: 156px 301px;
+    height: 301px;
+    width: 156px;
+    bottom: 27%;
+    position: absolute;
+    right: 7%;
+  }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* ----------- iPad Pro ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+  
+  .sun {
+    background-size: 1090px 615px;;
+    height: 615px;
+    width: 1090px;
+    bottom: -5%;
+    position: absolute;
+    right: 10%;
+  }
+
+  .hal {
+    background-size: 360px 640px;
+    height: 640px;
+    width: 360px;
+    bottom: 0px;
+    position: absolute;
+    right: 57%;
+  }
+
+  .grass {
+    background-size: 94px 122px;
+    height: 122px;
+    width: 94px;
+    bottom: -2%;
+    position: absolute;
+    right: 60%;
+  }
+  .ground-1 {
+    background-size: 402px 67px;
+    height: 67px;
+    width: 402px;
+    bottom: -3%;
+    position: absolute;
+    right: 55%;
+  }
+  .ground-2 {
+    background-size: 469px 55px;
+    height: 55px;
+    width: 469px;
+    bottom: -2%;
+    position: absolute;
+    right: 30%;
+  }
+
+  .title-1 {
+    margin: 0px 0px;
+    background-size: 429px 84px;
+    height: 84px;
+    width: 429px;
+    bottom: 78%;
+    position: absolute;
+    right: 10%;
+  }
+  .title-2 {
+    margin: 0px 0px;
+    background-size: 427px 74px;
+    height: 74px;
+    width: 427px;
+    bottom: 68%;
+    position: absolute;
+    right: 10%;
+  }
+
+  .title-3 {
+    margin: 0px 0px;
+    background-size: 428px 113px;
+    height: 113px;
+    width: 428px;
+    bottom: 57%;
+    position: absolute;
+    right: 10%;
+  }
+
+  .title-4 {
+    margin: 0px 0px;
+    background-size: 156px 301px;
+    height: 301px;
+    width: 156px;
+    bottom: 30%;
+    position: absolute;
+    right: 10%;
+  }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* ----------- Kindle Fire HD 7" ----------- */
+
+/* Portrait and Landscape */
+@media 
+  (min-device-width: 800px) 
+  and (max-device-width: 1280px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+
+}
+
+/* Portrait */
+@media 
+  (min-device-width: 800px) 
+  and (max-device-width: 1280px) 
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 1.5) { 
+  
+  .sun {
+    background-size: 1090px 615px;;
+    height: 615px;
+    width: 1090px;
+    bottom: -5%;
+    position: absolute;
+    right: 0%;
+  }
+
+  .hal {
+    background-size: 360px 640px;
+    height: 640px;
+    width: 360px;
+    bottom: 0px;
+    position: absolute;
+    right: 50%;
+  }
+
+  .grass {
+    background-size: 94px 122px;
+    height: 122px;
+    width: 94px;
+    bottom: -2%;
+    position: absolute;
+    right: 53%;
+  }
+  .ground-1 {
+    background-size: 402px 67px;
+    height: 67px;
+    width: 402px;
+    bottom: -3%;
+    position: absolute;
+    right:47%;
+  }
+  .ground-2 {
+    background-size: 469px 55px;
+    height: 55px;
+    width: 469px;
+    bottom: -2%;
+    position: absolute;
+    right: 17%;
+  }
+
+  .title-1 {
+    margin: 0px 0px;
+    background-size: 429px 84px;
+    height: 84px;
+    width: 429px;
+    bottom: 80%;
+    position: absolute;
+    right: 10%;
+  }
+  .title-2 {
+    margin: 0px 0px;
+    background-size: 427px 74px;
+    height: 74px;
+    width: 427px;
+    bottom: 70%;
+    position: absolute;
+    right: 10%;
+  }
+
+  .title-3 {
+    margin: 0px 0px;
+    background-size: 428px 113px;
+    height: 113px;
+    width: 428px;
+    bottom: 59%;
+    position: absolute;
+    right: 10%;
+  }
+
+  .title-4 {
+    margin: 0px 0px;
+    background-size: 156px 301px;
+    height: 301px;
+    width: 156px;
+    bottom: 30%;
+    position: absolute;
+    right: 10%;
+  }
+}
+
+/* Landscape */
+@media 
+  (min-device-width: 800px) 
+  and (max-device-width: 1280px) 
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 1.5) { 
+
+}
+
+
+/* ----------- Kindle Fire HD 8.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) 
+  and (orientation: portrait) {
+  
+  .sun {
+    background-size: 1362px 769px;
+    height: 769px;
+    width: 1362px;
+    bottom: -5%;
+    position: absolute;
+    right: 0%;
+  }
+
+  .hal {
+    background-size: 450px 800px;
+    height: 800px;
+    width: 450px;
+    bottom: 0px;
+    position: absolute;
+    right: 55%;
+  }
+
+  .grass {
+    background-size: 118px 153px;
+    height: 153px;
+    width: 118px;
+    bottom: -2%;
+    position: absolute;
+    right: 55%;
+  }
+  .ground-1 {
+    background-size: 503px 84px;
+    height: 84px;
+    width: 503px;
+    bottom: -3%;
+    position: absolute;
+    right:50%;
+  }
+  .ground-2 {
+    background-size: 586px 69px;
+    height: 69px;
+    width: 586px;
+    bottom: -2%;
+    position: absolute;
+    right: 25%;
+  }
+
+  .title-1 {
+    margin: 0px 0px;
+    background-size: 536px 105px;
+    height: 105px;
+    width: 536px;
+    bottom: 85%;
+    position: absolute;
+    right: 10%;
+  }
+  .title-2 {
+    margin: 0px 0px;
+    background-size: 534px 93px;
+    height: 93px;
+    width: 534px;
+    bottom: 73%;
+    position: absolute;
+    right: 10%;
+  }
+
+  .title-3 {
+    margin: 0px 0px;
+    background-size: 535px 141px;
+    height: 141px;
+    width: 535px;
+    bottom: 60%;
+    position: absolute;
+    right: 10%;
+  }
+
+  .title-4 {
+    margin: 0px 0px;
+    background-size: 195px 376px;
+    height: 376px;
+    width: 195px;
+    bottom: 32%;
+    position: absolute;
+    right: 10%;
+  }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) 
+  and (orientation: landscape) {
+
+}
+
+
+/* ----------- Galaxy Tab 10.1 ----------- */
+
+/* Portrait and Landscape */
+@media 
+  (min-device-width: 800px) 
+  and (max-device-width: 1280px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Portrait */
+@media 
+  (min-device-width: 800px) 
+  and (max-device-width: 1280px) 
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 1) { 
+  
+  .sun {
+    background-size: 1090px 615px;;
+    height: 615px;
+    width: 1090px;
+    bottom: -5%;
+    position: absolute;
+    right: 0%;
+  }
+
+  .hal {
+    background-size: 360px 640px;
+    height: 640px;
+    width: 360px;
+    bottom: 0px;
+    position: absolute;
+    right: 50%;
+  }
+
+  .grass {
+    background-size: 94px 122px;
+    height: 122px;
+    width: 94px;
+    bottom: -2%;
+    position: absolute;
+    right: 53%;
+  }
+  .ground-1 {
+    background-size: 402px 67px;
+    height: 67px;
+    width: 402px;
+    bottom: -3%;
+    position: absolute;
+    right:47%;
+  }
+  .ground-2 {
+    background-size: 469px 55px;
+    height: 55px;
+    width: 469px;
+    bottom: -2%;
+    position: absolute;
+    right: 17%;
+  }
+
+  .title-1 {
+    margin: 0px 0px;
+    background-size: 429px 84px;
+    height: 84px;
+    width: 429px;
+    bottom: 80%;
+    position: absolute;
+    right: 10%;
+  }
+  .title-2 {
+    margin: 0px 0px;
+    background-size: 427px 74px;
+    height: 74px;
+    width: 427px;
+    bottom: 70%;
+    position: absolute;
+    right: 10%;
+  }
+
+  .title-3 {
+    margin: 0px 0px;
+    background-size: 428px 113px;
+    height: 113px;
+    width: 428px;
+    bottom: 59%;
+    position: absolute;
+    right: 10%;
+  }
+
+  .title-4 {
+    margin: 0px 0px;
+    background-size: 156px 301px;
+    height: 301px;
+    width: 156px;
+    bottom: 30%;
+    position: absolute;
+    right: 10%;
+  }
+}
+
+/* Landscape */
+@media 
+  (min-device-width: 800px) 
+  and (max-device-width: 1280px) 
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+}
+
+/* --------------------------------- */
+
+@media all and (min-width: 400px) {
+  html {
+    font-size: 12px;
+  }
+
+  .wrapper {
+    min-height: 360px;
+  }
+
+  .about .panel header:before {
+    background-size: 66px 90px;
+  }
+
+  .toggle {
+    bottom: 12%;
+  }
+
+  .prompt .panel img {
+    width: 80px;
+  }
+
+  .scene {
+    min-height: 360px;
+  }
+
+  .rope.depth-10 {
+    top: 10%;
+  }
+  .rope.depth-10 .hanger {
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    transform: scale(0.3);
+  }
+
+  .rope.depth-20 {
+    top: 6.11111%;
+  }
+  .rope.depth-20 .hanger {
+    -webkit-transform: scale(0.33333);
+    -moz-transform: scale(0.33333);
+    transform: scale(0.33333);
+  }
+
+  .rope.depth-30 {
+    top: 2.22222%;
+  }
+  .rope.depth-30 .hanger {
+    -webkit-transform: scale(0.36667);
+    -moz-transform: scale(0.36667);
+    transform: scale(0.36667);
+  }
+
+  .rope.depth-40 {
+    top: -1.66667%;
+  }
+  .rope.depth-40 .hanger {
+    -webkit-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    transform: scale(0.4);
+  }
+
+  .rope.depth-50 {
+    top: -5.55556%;
+  }
+  .rope.depth-50 .hanger {
+    -webkit-transform: scale(0.43333);
+    -moz-transform: scale(0.43333);
+    transform: scale(0.43333);
+  }
+
+  .rope.depth-60 {
+    top: -9.44444%;
+  }
+  .rope.depth-60 .hanger {
+    -webkit-transform: scale(0.46667);
+    -moz-transform: scale(0.46667);
+    transform: scale(0.46667);
+  }
+
+  .rope.depth-70 {
+    top: -13.33333%;
+  }
+  .rope.depth-70 .hanger {
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+
+  .rope.depth-80 {
+    top: -17.22222%;
+  }
+  .rope.depth-80 .hanger {
+    -webkit-transform: scale(0.53333);
+    -moz-transform: scale(0.53333);
+    transform: scale(0.53333);
+  }
+
+  .rope.depth-90 {
+    top: -21.11111%;
+  }
+  .rope.depth-90 .hanger {
+    -webkit-transform: scale(0.56667);
+    -moz-transform: scale(0.56667);
+    transform: scale(0.56667);
+  }
+
+  .rope.depth-100 {
+    top: -25%;
+  }
+  .rope.depth-100 .hanger {
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    transform: scale(0.6);
+  }
+}
+
+
+a, button {
+  -webkit-transition: color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1), background-color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1), opacity 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  -moz-transition: color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1), background-color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1), opacity 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1), background-color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1), opacity 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.cross, .x, .y {
+  -webkit-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  -moz-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.about .panel,
+.about .cables {
+  -webkit-transition: all 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+  -moz-transition: all 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+@-webkit-keyframes phase {
+  0% {
+    opacity: 1;
+  }
+
+  25% {
+    opacity: 0.4;
+  }
+
+  50% {
+    opacity: 0.8;
+  }
+
+  75% {
+    opacity: 0.4;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes phase {
+  0% {
+    opacity: 1;
+  }
+
+  25% {
+    opacity: 0.4;
+  }
+
+  50% {
+    opacity: 0.8;
+  }
+
+  75% {
+    opacity: 0.4;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes phase {
+  0% {
+    opacity: 1;
+  }
+
+  25% {
+    opacity: 0.4;
+  }
+
+  50% {
+    opacity: 0.8;
+  }
+
+  75% {
+    opacity: 0.4;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes phase {
+  0% {
+    opacity: 1;
+  }
+
+  25% {
+    opacity: 0.4;
+  }
+
+  50% {
+    opacity: 0.8;
+  }
+
+  75% {
+    opacity: 0.4;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+html.mouse a:hover, html.mouse button:hover {
+  -webkit-transition: color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), background-color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), opacity 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  -moz-transition: color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), background-color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), opacity 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), background-color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), opacity 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+html.mouse a:hover {
+  color: #FFCDD2;
+}
+html.mouse button:hover {
+  background-color: #D32F2F;
+  color: white;
+}
+html.mouse .toggle:hover .x, html.mouse .toggle:hover .y {
+  background-color: white;
+}
+html.mouse .links a:hover {
+  background-color: #D32F2F;
+  color: white;
+}
+
+html.touch a.tap, html.touch button.tap {
+  -webkit-transition: color 0s cubic-bezier(0.25, 0.46, 0.45, 0.94), background-color 0s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 0s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -moz-transition: color 0s cubic-bezier(0.25, 0.46, 0.45, 0.94), background-color 0s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 0s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: color 0s cubic-bezier(0.25, 0.46, 0.45, 0.94), background-color 0s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 0s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+html.touch a.tap {
+  color: #EF5350;
+}
+html.touch button.tap {
+  background-color: #D32F2F;
+  color: white;
+}
+html.touch .toggle.tap .x, html.touch .toggle.tap .y {
+  background-color: white;
+}
+html.touch .links a.tap {
+  background-color: #D32F2F;
+  color: white;
+}
