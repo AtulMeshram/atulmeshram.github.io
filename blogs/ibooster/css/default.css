@@ -1,0 +1,131 @@
+/* General Demo Style */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+html { height: 100%; }
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    background: #f9f9f9;
+    font-weight: 300;
+    font-size: 15px;
+    color: #333;
+    overflow: scroll;
+    overflow-x: hidden;
+	
+	background: linear-gradient(220deg, #9f968d, #9ae7d9, #70d0ec, #c19bdf, #f4b3dc, #feafbc, #f4f0a2);
+	background-size: 2400% 2400%;
+
+	-webkit-animation: AnimationName 25s ease infinite;
+	-moz-animation: AnimationName 25s ease infinite;
+	-o-animation: AnimationName 25s ease infinite;
+	animation: AnimationName 25s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:97% 0%}
+    50%{background-position:4% 100%}
+    100%{background-position:97% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:97% 0%}
+    50%{background-position:4% 100%}
+    100%{background-position:97% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:97% 0%}
+    50%{background-position:4% 100%}
+    100%{background-position:97% 0%}
+}
+@keyframes AnimationName { 
+    0%{background-position:97% 0%}
+    50%{background-position:4% 100%}
+    100%{background-position:97% 0%}
+}
+
+a {
+	color: #555;
+	text-decoration: none;
+}
+
+.container {
+	width: 100%;
+	position: relative;
+}
+
+.container > header {
+	width: 95%;
+	max-width: 1240px;
+	margin: 0 auto;
+	position: relative;
+	padding: 0 30px 50px 30px;
+	border-bottom:10px;
+	border-bottom-left-radius:30px;
+	border-bottom-right-radius:30px;
+	border-bottom-style:solid;
+	border-bottom-width:thick;
+}
+
+.container > header {
+	padding: 60px 30px 50px;
+	text-align: center;
+}
+
+.container > header h1 {
+	font-size: 40px;
+	line-height: 45px;
+	margin: 0 auto;
+	font-weight: 700;
+	color: #333;
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+
+.container > header h1 span {
+	display: block;
+	font-size: 30px;
+	font-weight: 300;
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+
+.container .headerBottom {
+	width: 95%;
+	max-width: 1240px;
+	margin: 0 auto;
+	position: relative;
+	padding: 0 0px 0px 0px;
+	padding-top: 50px;
+	border-top:10px;
+	border-top-left-radius:30px;
+	border-top-right-radius:30px;
+	border-top-style:solid;
+	border-top-width:thick;
+}
+
+.main > p {
+	text-align: center;
+	padding: 50px 20px;
+}
