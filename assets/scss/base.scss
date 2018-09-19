@@ -1,0 +1,47 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    font-size: 62.5%;
+    background: $black;
+	color: $white;
+	font-family: 'Orbitron', sans-serif;
+}
+
+#main {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	// opacity: 0;
+}
+
+#site__bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -99999;
+	display: block; 
+}
+
