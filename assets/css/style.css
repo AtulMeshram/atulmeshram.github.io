@@ -593,6 +593,12 @@ body {
 @media only screen and (max-width: 450px), screen and (max-height: 750px) {
   .btn-hide {
     visibility: hidden; }
+  
+  .card__text__content {
+    position: absolute;
+    left: 9%;
+    top: 15%;
+    z-index: 10; }
 
   .card__text__content h4 {
     padding: 10px 20px;
