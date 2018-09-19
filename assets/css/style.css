@@ -597,7 +597,7 @@ body {
   .card__text__content {
     position: absolute;
     left: 9%;
-    top: 25%;
+    top: 15%;
     z-index: 10; }
 
   .card__text__content h4 {
