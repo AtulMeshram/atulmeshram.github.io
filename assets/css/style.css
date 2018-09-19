@@ -593,11 +593,11 @@ body {
 @media only screen and (max-width: 450px), screen and (max-height: 750px) {
   .btn-hide {
     visibility: hidden; }
-  
+
   .card__text__content {
     position: absolute;
     left: 9%;
-    top: 15%;
+    top: 25%;
     z-index: 10; }
 
   .card__text__content h4 {
@@ -1068,5 +1068,73 @@ body {
   .cv {
     font-size: 1.5em;
     line-height: 1.5em; } }
+@media only screen and (max-width: 320px), screen and (max-height: 435px) {
+  .contact-panel__talk-container h1 {
+    font-size: 3vh;
+    line-height: 4vh;
+    padding-bottom: 1vh; }
+
+  .contact-panel__talk-container p {
+    font-size: 1em;
+    line-height: 1em;
+    width: 100%;
+    max-width: 275px;
+    padding-left: 20px;
+    padding-right: 20px; }
+
+  .contact-panel__text-link {
+    font-size: 1em;
+    text-align: center;
+    line-height: 1em;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px; }
+
+  .contact-panel__text-link a svg {
+    overflow: visible;
+    text-decoration: none;
+    display: inline-block;
+    height: 0.5em;
+    width: 0.5em;
+    padding: 0.5em 2.5em 1.2em 0em; }
+
+  .contact-panel__social-link {
+    max-width: 275px;
+    width: 100%;
+    height: 5vh;
+    bottom: 10%;
+    background: transparent; }
+
+  .contact-panel__social-link a {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    margin: 0em 1.25em;
+    -webkit-font-smoothing: antialiased;
+    height: 50px;
+    width: 50px;
+    background-color: transparent; }
+
+  .contact-panel__social-link a img {
+    height: 16px;
+    width: auto;
+    margin: 16px auto; }
+
+  .contact-panel__footer {
+    position: fixed;
+    width: 100%;
+    height: 7%; }
+
+  .contact-panel__footer h2 {
+    font-size: 0.8em; }
+
+  .contact-panel__logo {
+    height: 30px;
+    width: 30px;
+    margin-top: 4vh; }
+
+  .cv {
+    font-size: 1em;
+    line-height: 1em; } }
 
 /*# sourceMappingURL=style.css.map */
