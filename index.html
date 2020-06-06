@@ -205,6 +205,33 @@
         transform: scale(0);
       }
     }
+    .msg__wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      align-items: center;
+      background-color: transparent;
+      z-index: 99999;
+      position: fixed;
+      padding-top: 8rem;
+    }
+
+    .msg {
+      font-family: "canada-type-gibson", sans-serif;
+      color: #FFF;
+      font-size: 1rem;
+      font-weight: 400;
+      text-align: center;
+      line-height: 5rem;
+      margin-top: 100px;
+    }
   </style>
 </head>
 
@@ -220,7 +247,10 @@
       </div>
     </div>
   </div>
-
+  <div class="msg__wrapper">
+    <p class="msg">Loading HD images... please wait!</p>
+  </div>
+  
   <div class="nav-filler"></div>
   <nav id="main-nav">
     <div class="container">
@@ -563,6 +593,7 @@
     window.onload = function () {
       setTimeout(function () {
         $('.loader__wrapper').fadeOut(300);
+        $('.msg__wrapper').fadeOut(300);
       }, 300);
     };
   </script>
