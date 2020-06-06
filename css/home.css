@@ -1,0 +1,241 @@
+.home footer .links-meta {
+  width: 100% !important;
+  text-align: center !important;
+}
+.home footer .links-meta .social-nav {
+  margin: 0 !important;
+}
+.home footer .contact-meta {
+  display: none;
+}
+@media (min-width: 480px) {
+  .home .nav-filler {
+    display: none;
+  }
+  .home #main-nav {
+    opacity: 0 !important;
+  }
+  .home #main-nav.scrolled {
+    opacity: 1 !important;
+  }
+}
+.main {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+@media (max-width: 480px) {
+  .main {
+    height: auto;
+    margin: 24px 0 96px;
+  }
+}
+.main .posed-kevin {
+  height: 95vh;
+  right: 2%;
+  bottom: 0;
+  position: absolute;
+  -webkit-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.main .main-block {
+  padding-bottom: 5.33333rem;
+}
+@media (max-width: 480px) {
+  .main .main-block {
+    padding-bottom: 2.66667rem;
+  }
+}
+.main .headshot-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 2.22222rem;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.main .headshot-wrap .headshot img {
+  max-width: 340px;
+  width: 100%;
+}
+.main .copy {
+  margin-bottom: 1.66667rem;
+}
+.main .copy .para {
+  width: 90%;
+  max-width: 800px;
+}
+.main .copy a {
+  border-color: transparent;
+}
+.main .copy p {
+  margin-bottom: 1.77778rem;
+}
+@media (max-width: 480px) {
+  .main .copy p {
+    margin-bottom: 0.88889rem;
+  }
+}
+.main .copy .dd {
+  background: -webkit-gradient(linear, right top, left top, color-stop(0, #297cfe), to(#24dfbe));
+  background: -webkit-linear-gradient(right, #297cfe 0, #24dfbe 100%);
+  background: -o-linear-gradient(right, #297cfe 0, #24dfbe 100%);
+  background: linear-gradient(270deg, #297cfe 0, #24dfbe 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+.main .copy a:hover .dd {
+  background: #ff5a5a;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.main .copy .sf {
+  color: #c41e3a;
+}
+.main .copy .br1 {
+  color: #4081b7;
+}
+.main .copy .br2 {
+  color: #ff893c;
+}
+.main .copy .fb {
+  color: #1778f2;
+}
+.main .copy .gl-gr {
+  color: #3cba54;
+}
+.main .copy .gl-yl {
+  color: #f4c20d;
+}
+.main .copy .gl-rd {
+  color: #db3236;
+}
+.main .copy .gl-bl {
+  color: #4885ed;
+}
+.main ul.main-nav {
+  width: 100%;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 1.22222rem;
+  text-transform: lowercase;
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 480px) {
+  .main ul.main-nav {
+    position: absolute;
+    display: block;
+    bottom: 4.44444rem;
+    left: 0;
+    list-style: none;
+  }
+}
+.main ul.main-nav li {
+  display: inline-block;
+  margin: 0 1.66667rem;
+}
+.main ul.main-nav li a {
+  -webkit-transition: 0.1s all;
+  -o-transition: 0.1s all;
+  transition: 0.1s all;
+}
+.main ul.main-nav li a:hover {
+  color: rgba(255, 90, 90, 0.5);
+}
+.main ul.main-nav .button {
+  margin: 0 -8px;
+}
+.main ul.main-nav .button i {
+  margin-left: 8px;
+  color: rgba(0, 0, 0, 0.16);
+}
+
+.pde {
+  background: -webkit-gradient(linear, right top, left top, color-stop(0, #3f5efb), to(#fc466b));
+  background: -webkit-linear-gradient(right, #3f5efb 0, #fc466b 100%);
+  background: -o-linear-gradient(right, #3f5efb 0, #fc466b 100%);
+  background: linear-gradient(270deg, #3f5efb 0, #fc466b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.main .copy .bt {
+  background: -webkit-gradient(linear, right top, left top, color-stop(0, #d232d2), to(#461491));
+  background: -webkit-linear-gradient(right, #d232d2 0, #461491 100%);
+  background: -o-linear-gradient(right, #d232d2 0, #461491 100%);
+  background: linear-gradient(270deg, #d232d2 0, #461491 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.main .copy .fedex {
+  background: -webkit-gradient(linear, right top, left top, color-stop(0, #ff6600), to(#461491));
+  background: -webkit-linear-gradient(right, #ff6600 0, #461491 100%);
+  background: -o-linear-gradient(right, #ff6600 0, #461491 100%);
+  background: linear-gradient(270deg, #ff6600 0, #461491 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.main .copy .sc {
+  background: -webkit-gradient(linear, right top, left top, color-stop(0, #00a546), to(#006ea5));
+  background: -webkit-linear-gradient(right, #00a546 0, #006ea5 100%);
+  background: -o-linear-gradient(right, #00a546 0, #006ea5 100%);
+  background: linear-gradient(270deg, #00a546 0, #006ea5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.main .copy .ac {
+  background: -webkit-gradient(linear, right top, left top, color-stop(0, #56ccf2), to(#2f80ed));
+  background: -webkit-linear-gradient(right, #56ccf2 0, #2f80ed 100%);
+  background: -o-linear-gradient(right, #56ccf2 0, #2f80ed 100%);
+  background: linear-gradient(270deg, #56ccf2 0, #2f80ed 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.main .copy .uc {
+  background: -webkit-gradient(linear, right top, left top, color-stop(0, #ffaf7b), to(#b06ab3));
+  background: -webkit-linear-gradient(right, #ffaf7b 0, #b06ab3 100%);
+  background: -o-linear-gradient(right, #ffaf7b 0, #b06ab3 100%);
+  background: linear-gradient(270deg, #ffaf7b 0, #b06ab3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.main .copy .nit {
+  background: -webkit-gradient(linear, right top, left top, color-stop(0, #67b26f), to(#4ca2cd));
+  background: -webkit-linear-gradient(right, #67b26f 0, #4ca2cd 100%);
+  background: -o-linear-gradient(right, #67b26f 0, #4ca2cd 100%);
+  background: linear-gradient(270deg, #67b26f 0, #4ca2cd 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+.main .copy a:hover .bt,
+.main .copy a:hover .fedex,
+.main .copy a:hover .sc,
+.main .copy a:hover .ac,
+.main .copy a:hover .uc,
+.main .copy a:hover .nit {
+  background: #ff5a5a;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
