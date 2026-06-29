@@ -709,7 +709,7 @@ footer .timestamp {
     margin-top: 24px;
     font-family: monospace;
     font-size: 12px;
-    text-transform: lowercase;
+    text-transform: capitalize;
     letter-spacing: 0
 }
 
